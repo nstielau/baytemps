@@ -110,4 +110,18 @@ So overall, it seems as though our sensor is reading may be ~1 degree
 higher than NOAA's readings.
 
 
+Next Steps
+~~~~~~~~~~
 
+I'd like to
+
+* Collect more data, and analyze the day-to-day variance across the year
+* Better understand NOAA's collectors, to see if I can account for the 1 
+degree difference
+* Perhaps run two loggers side by side to control for calibration
+* Get NOAA raw data to further compare
+
+Contact
+~~~~~~~
+
+Contact me at nick.stielau@gmail.com
