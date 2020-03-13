@@ -1,0 +1,114 @@
+Citizen Science: San Francisco Bay Temperatures at Aquatic Park, Q1 2020
+-------------------------------------------------------------------------
+
+Abstract
+~~~~~~~~
+
+Over the course of 1/17/2020 to 3/11/2020 (54 days) we collected 5205 
+temperature data points, one every 15 minutes, from a remote logging 
+device ~1 meter below the surface of the bay, near the entrance to 
+aquatic park.
+
+Over this period, the 
+
+* Highest: 59.7
+* Lowest: 51.8
+* Average: 53.2
+
+image:https://raw.githubusercontent.com/nstielau/baytemps/master/images/temperatureGraph.jpg[alt="Temperature 
+Graph"]
+
+Methods 
+~~~~~~~
+
+We used the 
+https://www.elitechustore.com/products/temtop-temlog20-pdf-waterproof-temperature-data-logger-usb-model-32000-points[Temtop 
+Temlog 20] to record the temperatures.
+
+image:https://raw.githubusercontent.com/nstielau/baytemps/master/images/temptopTemlog20.png[alt="Temtop 
+Temlog 20"]
+
+The logger was secured about a meter below the surface, near the 
+entrance of Aquatic Park.  It moved up and down with the tides to stay 
+at a constant level below the surface, and was able to move several 
+meters side to side in the ebb and flood. 
+
+v
+
+Results
+~~~~~~~
+
+Here are the results in various formats:
+
+* 
+https://raw.githubusercontent.com/nstielau/baytemps/master/results.pdf[Device-generated 
+PDF report]
+* 
+https://raw.githubusercontent.com/nstielau/baytemps/master/results.csv[Comma 
+Separated Values]
+* 
+https://raw.githubusercontent.com/nstielau/baytemps/master/results.xlsx[Excell 
+formated reported] (the CSV plus configuration parameters and summary)
+* 
+https://raw.githubusercontent.com/nstielau/baytemps/master/temperatureGraph.jpg[Graph 
+of results]
+
+Interpretation
+~~~~~~~~~~~~~~
+
+It's prety cold out there.
+
+Comparison to NOAA data
+~~~~~~~~~~~~~~~~~~~~~~~
+
+NOAA collects data at a number of different locations 
+https://tidesandcurrents.noaa.gov/ofs/sfbofs/sfbofs_entrance.html[around 
+the bay], the closest of which are "SW of AI" (Southwest of Alcatraz 
+Island) and "North Point", which are both about a half mile from the 
+collection location.
+
+image:https://raw.githubusercontent.com/nstielau/baytemps/master/images/NOAALocations.png[alt="NOAA 
+monitoring locations"]
+
+Unfortunately, I can't find the raw data, but we can extrapolate from 
+the graphs with recent data and forecasts.  The "SW of AI" location 
+https://tidesandcurrents.noaa.gov/ofs/sfbofs/model_graphics/SFBOFS_temp_swai_big.png[water 
+temp graph] shows this graph on 3/12/2020:
+
+image:https://raw.githubusercontent.com/nstielau/baytemps/master/images/noaaWaterTemps_SWofAI.png[alt="SW 
+of AI water temps graph"]
+
+And the "North Point (Pier 41)" location 
+https://tidesandcurrents.noaa.gov/ofs/sfbofs/model_graphics/SFBOFS_temp_npp4_big.png[water 
+temp graph] shows this graph on 3/12/2020:
+
+image:https://raw.githubusercontent.com/nstielau/baytemps/master/images/SFBOFS_temp_npp4_big.png[alt="North 
+Point water temps graph"]
+
+The last data point collected at aquatic park was at 14:11:39 3/11/2020 
+with a reading of 55.4F.  This time is almost exactly on the left-most 
+point of these graphs, which I read as 54.0F and 54.2F respectively.
+
+The ~1.3F degree difference may be explained by:
+
+* The collector sensor being calibrated differently
+* The collector being placed at a different location relative to the 
+surface
+* The collector being in a place that is genuinely warmer
+
+Given that the two NOAA readings are quite similar, it makes sense that 
+they are calibrated similarly.  I also imagine that their sensors are 
+more expensive (e.g. more than $20) and accurate.  As they span either 
+side of our collection point, it is unlikely that the water is overall 
+warmer near Aquatic Park.
+
+I would expect a reading at the surface to be warmer than a subsurface 
+reading, and could imagine a difference on the order of a degree.  If 
+the NOAA sensor are deeper than a meter, this could account for the 
+difference.
+
+So overall, it seems as though our sensor is reading may be ~1 degree 
+higher than NOAA's readings.
+
+
+
