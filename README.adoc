@@ -49,7 +49,7 @@ Separated Values]
 https://raw.githubusercontent.com/nstielau/baytemps/master/results.xlsx[Excell 
 formated reported] (the CSV plus configuration parameters and summary)
 * 
-https://raw.githubusercontent.com/nstielau/baytemps/master/temperatureGraph.jpg[Graph 
+https://raw.githubusercontent.com/nstielau/baytemps/master/images/temperatureGraph.jpg[Graph 
 of results]
 
 Interpretation
