@@ -73,8 +73,7 @@ collection location.
 image:https://raw.githubusercontent.com/nstielau/baytemps/master/images/NOAALocations.png[alt="NOAA 
 monitoring locations"]
 
-Unfortunately, I can't find the raw data, but we can extrapolate from 
-the graphs with recent data and forecasts.  The "SW of AI" location 
+The "SW of AI" location 
 https://tidesandcurrents.noaa.gov/ofs/sfbofs/model_graphics/SFBOFS_temp_swai_big.png[water 
 temp graph] shows this graph on 3/12/2020:
 
@@ -90,7 +89,12 @@ Point water temps graph"]
 
 The last data point collected at aquatic park was at 14:11:39 3/11/2020 
 with a reading of 55.4F.  This time is almost exactly on the left-most 
-point of these graphs, which I read as 54.0F and 54.2F respectively.
+point of these graphs, which I read as 54.0F and 54.2F respectively. This shows an ~1.3 degree diffence.
+
+Using the NOAA https://tidesandcurrents.noaa.gov/stationhome.html?id=9414290["Tides and Currents" data] from the San Fancisco station,
+We are able to look at historical data from NOAA:
+
+image:https://raw.githubusercontent.com/nstielau/baytemps/master/images/APvsNOAA.png[alt="Aquatic Park vs. NOAA"]
 
 The ~1.3F degree difference may be explained by:
 
@@ -125,7 +129,17 @@ degree difference
 * Perhaps run two loggers side by side to control for calibration
 * Get NOAA raw data to further compare
 
+References
+~~~~~~~~~~
+
+* https://sfwater.org/sapps/beachesandbay.html[SF City Beach Water Quality data]
+* https://tidesandcurrents.noaa.gov/physocean.html?bdate=20200117&edate=20200311&units=standard&timezone=GMT&id=9414290&interval=h&action=data[NOAA raw tides and currents data]  
+
+
+
 Contact
 ~~~~~~~
 
 Contact me at nick.stielau@gmail.com
+
+
