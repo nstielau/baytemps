@@ -26,7 +26,7 @@ https://www.elitechustore.com/products/temtop-temlog20-pdf-waterproof-temperatur
 Temlog 20] to record the temperatures.
 
 image:https://raw.githubusercontent.com/nstielau/baytemps/master/images/temptopTemlog20.png[alt="Temtop 
-Temlog 20"]
+Temlog 20",width=256]
 
 The logger was secured about a meter below the surface, near the 
 entrance of Aquatic Park.  It moved up and down with the tides to stay 
@@ -34,7 +34,7 @@ at a constant level below the surface, and was able to move several
 meters side to side in the ebb and flood. 
 
 image:https://raw.githubusercontent.com/nstielau/baytemps/master/images/logger.png[alt="Temtop 
-Temlog 20, after two months in bay"]
+Temlog 20, after two months in bay",width=512]
 
 
 
